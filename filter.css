@@ -1,0 +1,40 @@
+.blur{
+	filter: blur(10px);
+}
+.brghtness{
+	filter:brightness (50%);
+}
+.contrast{
+	filter:contrast(200%);
+}
+.dropshadow{
+	filter:dropshadow(200%);
+}
+.grayscale{
+	filter: grayscale(100%);
+}
+.hue{
+	filter: hue-rotate(480%);
+}
+.invert{
+	filter: invert(100%);
+}
+.opacity{
+	filter: opacity(30%);
+}
+.sepia{
+	filter: sepia(100%);
+}
+.saturation{
+	filter: saturate(200%);
+}
+body{
+	background-image:radial-gradient( yellow, red, green);
+	/* -webkit-background-clip: text;
+	color: transparent;
+	*/
+	
+}
+h1{
+	color: blue;
+}
